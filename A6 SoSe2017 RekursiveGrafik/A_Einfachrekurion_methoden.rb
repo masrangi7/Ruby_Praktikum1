@@ -2,10 +2,10 @@
 #  raise ArgumentError, "Ungültige Parameter" if x < 0 || n < 0
 #  raise ArgumentError, "Ungültige Parameter, falsche parameter typ" unless x.is_a?(Numeric)&& n.is_a?(Integer)
 #  if x == 0
-#    return 1/(1-x)
+#    return 1/(1-x)   #return 1
 #  end
 #
-#  if n == 0
+#  if n == 0       #abbruch bedingung
 #    return 1
 #  end
 #
