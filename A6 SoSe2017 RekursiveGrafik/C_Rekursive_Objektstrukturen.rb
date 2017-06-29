@@ -18,12 +18,11 @@ end
 def to_s
 
   return 'Set {}' if size == 0
-#  arry=[]
-#  self.each{|x| arry.push(x) }
-#  return "{#{arry.to_s.delete('[]')}}"
+  arry=[]
+  self.each{|x| arry.push(x) }
+  return "{#{arry.to_s.delete('[]')}}"
   
-  return "#{self.map{|x|x}}"
-  delete'[]'
+  
   
 
 end
